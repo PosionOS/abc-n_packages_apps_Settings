@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Pure Nexus Project
      Copyright (C) 2016 Flash ROM
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,10 +16,8 @@
     <string name="header_category_custom">Управление прошивкой</string>
     <string name="abc_settings_title">Настройки ABC</string>
     <string name="abc_settings_summary">Пользовательские настройки прошивки</string>
-
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Пароль для резервного копирования</string>
-
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">Не требуется, настройки \"Для разработчиков\" включены по умолчанию.</string>
     <!-- ADB debugging notifications -->
@@ -35,7 +30,6 @@
     <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключенных сетей!\n\nИспользуйте эту функцию только при подключении к доверенным сетям.\n\nДействительно включить эту функцию?</string>
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Пароль для резервного копирования</string>
-
     <!-- ROM version -->
     <string name="rom_version">Версия ABC</string>
     <string name="rom_version_default">Неизвестно</string>
@@ -44,24 +38,19 @@
     <string name="vendor_version_default">Неизвестно</string>
     <!-- Model Name -->
     <string name="model_name">Имя модели</string>
-
     <!-- Gesture Settings -->
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
     <string name="double_twist_for_camera_mode_summary_pn">Для смены режима селфи и обратно в Google Camera, дважды вращайте телефон, находясь в приложении</string>
-
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
-
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Связать громкости звонка и уведомлений</string>
     <string name="notification_volume_option_title">Громкость уведомлений</string>
     <string name="ring_notification_volume_option_title">Громкость звонка и уведомлений</string>
-
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
-
     <!-- Category title for Charging sounds -->
     <string name="power_notifications_category_title">Звуки при зарядке</string>
     <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
@@ -73,7 +62,6 @@
     <string name="power_notifications_ringtone_title">Звук уведомления</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Без звука</string>
-
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Минимальный интервал между уведомлениями</string>
     <string name="app_notification_sound_timeout_summary_template">Использовать звук или вибрацию один раз в <xliff:g id="duration">%1$s</xliff:g></string>
@@ -84,13 +72,10 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
-
     <!-- Navigation -->
     <string name="navigation_category">Панель навигации</string>
-
     <!-- Phone info shortcut -->
     <string name="device_info_title">Информация о телефоне</string>
-
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Яркость</string>
     <string name="night_brightness_value_title">Яркость в ночном режиме</string>
@@ -99,7 +84,6 @@
     <string name="night_bright_low">Минимальная</string>
     <string name="night_bright_medium">Средняя</string>
     <string name="night_bright_min">Низкая</string>
-
     <!-- Dashboard options -->
     <string name="dashboard_category">Опции главного меню</string>
     <string name="remove_tile_summaries_title">Подсказки в главном меню</string>
@@ -111,7 +95,6 @@
     <string name="ambient_doze_custom_brightness_title">Яркость Ambient Display</string>
     <string name="ambient_doze_auto_brightness_title">Авто-яркость для Ambient Display</string>
     <string name="ambient_doze_auto_brightness_summary">Использовать значение яркости, заданное при последнем включении экрана, при поднятии устройства и получении уведомления на выключенном экране</string>
-
     <!-- Fingerprint Quick Pulldown -->
     <string name="quick_pulldown_fp_title">Свайп сканера отпечатка пальца</string>
     <string name="quick_pulldown_fp_summary">Раскрывать панель быстрых настроек свайпом по сканеру отпечатка пальца</string>
@@ -119,14 +102,15 @@
     <string name="fp_swipe_call_actions_disabled">Отключено</string>
     <string name="fp_swipe_call_actions_updown_answer_call">Свайп вверх или вниз, для того чтобы снять трубку</string>
     <string name="fp_swipe_call_actions_up_answer_down_silence">Свайп вверх - снять трубку, вниз - отключить звук</string>
-	
-	<!-- OTA Updates-->
+    <!-- OTA Updates-->
     <string name="ota_title">Обновления ABC</string>
 	<string name="ota_summary">Загрузить последнюю версию прошивки</string>
-	
-	<!-- Changelog -->
+    <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С момента последнего обновления</string>
     <string name="changelog_error">Не удается загрузить список изменений</string>
-	
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показать информацию о процессоре</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
 </resources>

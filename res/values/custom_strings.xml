@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Pure Nexus Project
      Copyright (C) 2016 Flash ROM
-
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,10 +16,8 @@
     <string name="header_category_custom">ROM Control</string>
     <string name="abc_settings_title">ABC Settings</string>
     <string name="abc_settings_summary">Customize ROM features</string>
-
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Desktop backup password</string>
-
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
     <!-- ADB debugging notifications -->
@@ -35,7 +30,6 @@
     <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Desktop backup password</string>
-
     <!-- ROM version -->
     <string name="rom_version">ABC version</string>
     <string name="rom_version_default">Unknown</string>
@@ -44,24 +38,19 @@
     <string name="vendor_version_default">Unknown</string>
     <!-- Model Name -->
     <string name="model_name">Model name</string>
-
-<!-- Gesture Settings -->
+    <!-- Gesture Settings -->
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
     <string name="double_twist_for_camera_mode_summary_pn">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app</string>
-
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
-
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volume</string>
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
-
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
-
     <!-- Category title for Charging sounds -->
     <string name="power_notifications_category_title">Charging sounds</string>
     <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
@@ -73,7 +62,6 @@
     <string name="power_notifications_ringtone_title">Notification sound</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">Silent</string>
-
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
@@ -84,13 +72,10 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
-
     <!-- Navigation -->
     <string name="navigation_category">Navigation</string>
-
-   <!-- Phone info shortcut -->
+    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
-
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
     <string name="night_brightness_value_title">Night Light brightness</string>
@@ -99,7 +84,6 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
     <string name="night_bright_min">Minimum brightness</string>
-
     <!-- Dashboard options -->
     <string name="dashboard_category">Dashboard options</string>
     <string name="remove_tile_summaries_title">Summaries</string>
@@ -107,12 +91,10 @@
     <string name="remove_tile_summaries_summary_disabled">Dashboard summaries are disabled</string>
     <string name="dashboard_columns_portrait_title">Columns (portrait)</string>
     <string name="dashboard_columns_landscape_title">Columns (landscape)</string>
-
     <!-- Ambient Display Brightness -->
     <string name="ambient_doze_custom_brightness_title">Ambient and LiftToWake brightness</string>
     <string name="ambient_doze_auto_brightness_title">Ambient and LiftToWake auto brightness</string>
     <string name="ambient_doze_auto_brightness_summary">Use last screen-on brightness value for Ambient Display or Lift to Wake screen</string>
-
     <!-- Custom fingerprint gestures -->
     <string name="quick_pulldown_fp_title">Fingerprint quick pulldown</string>
     <string name="quick_pulldown_fp_summary">Enable expanding the Quick Settings with only one swipe on the fingerprint sensor</string>
@@ -120,13 +102,15 @@
     <string name="fp_swipe_call_actions_disabled">Disabled</string>
     <string name="fp_swipe_call_actions_updown_answer_call">Swipe up or down to respond to incoming calls</string>
     <string name="fp_swipe_call_actions_up_answer_down_silence">Swipe up to respond to incoming calls, down to silence them</string>
-
     <!-- OTA Updates-->
     <string name="ota_title">ABC updates</string>
     <string name="ota_summary">Download the latest version of ROM</string>
-	
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Show CPU info</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 </resources>
