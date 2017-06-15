@@ -63,16 +63,16 @@
     <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>
 
     <!-- Category title for Charging sounds -->
-    <string name="power_notifications_category_title">Звуки зарядки</string>
+    <string name="power_notifications_category_title">Звуки при зарядке</string>
     <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
-    <string name="power_notifications_enable_title">Включить</string>
+    <string name="power_notifications_enable_title">Активировать</string>
     <string name="power_notifications_enable_summary">Воспроизводить звук при подключении или отключении зарядного устройства</string>
     <!-- Sound settings, Charging sounds vibrate enable/disable, setting check box label -->
     <string name="power_notifications_vibrate_title">Вибрация</string>
     <!-- Sound settings, Charging sounds ringtone selection, preference label -->
     <string name="power_notifications_ringtone_title">Звук уведомления</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
-    <string name="power_notifications_ringtone_silent">Беззвучный</string>
+    <string name="power_notifications_ringtone_silent">Без звука</string>
 
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Минимальный интервал между уведомлениями</string>
@@ -107,4 +107,13 @@
     <string name="remove_tile_summaries_summary_disabled">Подсказки в главном меню выключены</string>
     <string name="dashboard_columns_portrait_title">Количество столбцов (в портретном режиме)</string>
     <string name="dashboard_columns_landscape_title">Количество столбцов (в альбомном режиме)</string>
+    <!-- Ambient Display Brightness -->
+    <string name="ambient_doze_custom_brightness_title">Яркость Ambient Display</string>
+    <string name="ambient_doze_auto_brightness_title">Авто-яркость для Ambient Display</string>
+    <string name="ambient_doze_auto_brightness_summary">Использовать значение яркости, заданное при последнем включении экрана, при поднятии устройства и получении уведомления на выключенном экране</string>
+
+
+    <!-- Fingerprint Quick Pulldown -->
+    <string name="quick_pulldown_fp_title">Свайп сканера отпечатка пальца</string>
+    <string name="quick_pulldown_fp_summary">Раскрывать панель быстрых настроек свайпом по сканеру отпечатка пальца</string>
 </resources>
