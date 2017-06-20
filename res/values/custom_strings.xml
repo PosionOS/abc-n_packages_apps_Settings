@@ -116,4 +116,14 @@
     <!-- Fingerprint Quick Pulldown -->
     <string name="quick_pulldown_fp_title">Fingerprint quick pulldown</string>
     <string name="quick_pulldown_fp_summary">Enable expanding the Quick Settings with only one swipe on the fingerprint sensor</string>
+	
+	<!-- OTA Updates-->
+    <string name="ota_title">ABC updates</string>
+	<string name="ota_summary">Download the latest version of ROM</string>
+	
+	<!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
+	
 </resources>

@@ -64,6 +64,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_ROM_VERSION = "rom_version";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
+	private static final String KEY_ABC_CHANGELOG = "abc_changelog";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -122,6 +123,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_KERNEL_VERSION).setSummary(DeviceInfoUtils.getFormattedKernelVersion());
         setValueSummary(KEY_ROM_VERSION, "ro.abc.version");
         findPreference(KEY_ROM_VERSION).setEnabled(true);
+        findPreference(KEY_ABC_CHANGELOG).setEnabled(true);
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
