@@ -112,8 +112,17 @@
     <string name="ambient_doze_auto_brightness_title">Авто-яркость для Ambient Display</string>
     <string name="ambient_doze_auto_brightness_summary">Использовать значение яркости, заданное при последнем включении экрана, при поднятии устройства и получении уведомления на выключенном экране</string>
 
-
     <!-- Fingerprint Quick Pulldown -->
     <string name="quick_pulldown_fp_title">Свайп сканера отпечатка пальца</string>
     <string name="quick_pulldown_fp_summary">Раскрывать панель быстрых настроек свайпом по сканеру отпечатка пальца</string>
+	
+	<!-- OTA Updates-->
+    <string name="ota_title">Обновления ABC</string>
+	<string name="ota_summary">Загрузить последнюю версию прошивки</string>
+	
+	<!-- Changelog -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">С момента последнего обновления</string>
+    <string name="changelog_error">Не удается загрузить список изменений</string>
+	
 </resources>
