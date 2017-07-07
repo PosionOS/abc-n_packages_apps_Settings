@@ -115,6 +115,10 @@
     <!-- Fingerprint Quick Pulldown -->
     <string name="quick_pulldown_fp_title">Свайп сканера отпечатка пальца</string>
     <string name="quick_pulldown_fp_summary">Раскрывать панель быстрых настроек свайпом по сканеру отпечатка пальца</string>
+	<string name="fp_swipe_call_actions_title">Жесты сканера для вызовов</string>
+    <string name="fp_swipe_call_actions_disabled">Отключено</string>
+    <string name="fp_swipe_call_actions_updown_answer_call">Свайп вверх или вниз, для того чтобы снять трубку</string>
+    <string name="fp_swipe_call_actions_up_answer_down_silence">Свайп вверх - снять трубку, вниз - отключить звук</string>
 	
 	<!-- OTA Updates-->
     <string name="ota_title">Обновления ABC</string>
