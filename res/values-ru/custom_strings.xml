@@ -98,13 +98,13 @@
     <!-- Fingerprint Quick Pulldown -->
     <string name="quick_pulldown_fp_title">Свайп сканера отпечатка пальца</string>
     <string name="quick_pulldown_fp_summary">Раскрывать панель быстрых настроек свайпом по сканеру отпечатка пальца</string>
-	<string name="fp_swipe_call_actions_title">Жесты сканера для вызовов</string>
+    <string name="fp_swipe_call_actions_title">Жесты сканера для вызовов</string>
     <string name="fp_swipe_call_actions_disabled">Отключено</string>
     <string name="fp_swipe_call_actions_updown_answer_call">Свайп вверх или вниз, для того чтобы снять трубку</string>
     <string name="fp_swipe_call_actions_up_answer_down_silence">Свайп вверх - снять трубку, вниз - отключить звук</string>
     <!-- OTA Updates-->
     <string name="ota_title">Обновления ABC</string>
-	<string name="ota_summary">Загрузить последнюю версию прошивки</string>
+    <string name="ota_summary">Загрузить последнюю версию прошивки</string>
     <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С момента последнего обновления</string>
@@ -113,4 +113,6 @@
     <string name="show_cpu_info">Показать информацию о процессоре</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фоновые процессы</string>
 </resources>
